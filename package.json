@@ -1,7 +1,7 @@
 {
   "name": "bullgo",
   "version": "0.1.0",
-  "description": "A high-performance modern TypeScript package",
+  "description": "High-performance enterprise algorithms, non-native data structures, and resilient execution framework for TypeScript & Node.js.",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -29,11 +29,24 @@
     "prepublishOnly": "npm run typecheck && npm run test && npm run build"
   },
   "keywords": [
-    "typescript",
-    "npm",
-    "library"
+    "algorithms",
+    "data-structures",
+    "deque",
+    "red-black-tree",
+    "treap",
+    "segment-tree",
+    "aho-corasick",
+    "consistent-hashing",
+    "rate-limiter",
+    "circuit-breaker",
+    "bloom-filter",
+    "hyperloglog",
+    "typescript"
   ],
-  "author": "",
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "author": "Nikhil",
   "license": "MIT",
   "devDependencies": {
     "@typescript/typescript6": "^6.0.2",
