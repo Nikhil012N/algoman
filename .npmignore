@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# Whitelist release artifacts & essential metadata
+!dist/**
+!README.md
+!LICENSE
+!package.json
+
