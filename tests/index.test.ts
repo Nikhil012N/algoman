@@ -80,7 +80,7 @@ import {
   SparseTable,
 } from '../src/index';
 
-describe('Comprehensive Bullgo Algorithm Suite', () => {
+describe('Comprehensive algoman Algorithm Suite', () => {
   describe('Searching Algorithms', () => {
     const list = [1, 3, 3, 5, 7, 9];
 
