@@ -1,6 +1,6 @@
 {
   "name": "algoman",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "High-performance enterprise algorithms, non-native data structures, and resilient execution framework for TypeScript & Node.js.",
   "type": "module",
   "main": "./dist/index.cjs",
